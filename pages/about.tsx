@@ -15,10 +15,11 @@ const AboutPage = () => {
       </p>
       <p className="mt-4 text-lg text-white-700">
         Aave allows users to earn interest on their DAI, but instead
-        of redeeming the interest and principal back into the user’s wallet as
-        with a traditional bank savings account; we separate the
-        principal from the interest-- The principal is always under the original
-        user’s control, but the interest is redirected to grow the planet !
+        of redeeming the interest and principal back into the user’s
+        wallet as with a traditional bank account; we separate the
+        principal from the interest-- The principal is always under 
+        the original user’s control, but the interest is redirected
+        to grow the planet !
       </p>
       <p className="mt-8 mb-4 text-2xl font-bold text-white-900">
         I want to support something, but I hate trees !
