@@ -65,13 +65,13 @@ export const Donate: FC = () => {
               className="ml-6 text-white-900"
               onClick={() => setDonationValue("10")}
             >
-              10 DAI ~ 2 vaccines
+              10 DAI ~ 2 Trees a year !
             </button>
             <button
               className="ml-6 text-white-900"
               onClick={() => setDonationValue("30")}
             >
-              30 DAI ~ 4 vaccines
+              30 DAI ~ 4 Trees a year !
             </button>
           </div>
         </div>
