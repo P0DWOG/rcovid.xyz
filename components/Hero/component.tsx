@@ -27,7 +27,7 @@ export const Hero: FC = () => {
           Deposit crypto and save people's lifes
         </p>
         <p className="mb-2 text-3xl text-white-500">
-          <span className="text-blue-600">{interest.substr(0, 10)}</span> DAI
+          <span className="text-blue-600">{interest.substr(0, 18)}</span> DAI
           generated already
         </p>
       </div>
