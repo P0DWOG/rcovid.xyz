@@ -9,7 +9,7 @@ export const Footer: FC = () => {
         className="hover:opacity-80 transition-opacity"
         rel="noreferrer"
       >
-        Designed & Crafted by Timka © 2021
+        Energuy © 2021
       </a>
     </p>
   );
