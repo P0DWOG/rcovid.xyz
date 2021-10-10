@@ -14,7 +14,7 @@ export const Hero: FC = () => {
       setInterest(utils.formatEther(interest));
     };
 
-    fetchInterest();
+    fetchInterest(1);
   }, [rdaiContract]);
 
   return (
