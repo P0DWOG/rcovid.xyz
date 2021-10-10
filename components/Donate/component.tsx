@@ -40,7 +40,7 @@ export const Donate: FC = () => {
     <div className="mt-20">
       <div>
         <p className="text-2xl font-bold text-white-900">
-          How much DAI you want to stake?
+          Deposit:
         </p>
         <p className="text-xl text-white-700">
           Balance is {utils.formatEther(daiBalance).substr(0, 7)} DAI
@@ -50,7 +50,7 @@ export const Donate: FC = () => {
             className="absolute right-0 h-full pr-5 text-white-700"
             style={{ marginTop: "14px" }}
           >
-            {donationShots ? `${donationShots} vaccines / month` : ""}
+            {donationShots ? `${donationShots} trees / year` : ""}
           </div>
           <input
             value={donationValue}
