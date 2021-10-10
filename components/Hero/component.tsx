@@ -20,7 +20,7 @@ export const Hero: FC = () => {
   return (
     <div>
       <h1 className="text-4xl font-bold md:mt-40 md:mb-2 md:text-5xl text-white-900">
-        Plant trees with Energuy !
+        Plant trees with Energuy
       </h1>
       <div>
         <p className="mb-1 text-3xl text-white-700">
