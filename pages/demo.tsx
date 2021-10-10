@@ -9,9 +9,9 @@ import { DAI, DAIContract, rDAI, RDAIContract } from "contracts";
 import { BigNumber, Contract, providers, utils } from "ethers";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 
-const accountToImpersonate = "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045";
+const accountToImpersonate = "0x8605e554111d8ea3295e69addaf8b2abf60d68a3";
 
-const recipient = "0x8626f6940e2eb28930efb4cef49b2d1f2c9c1199";
+const recipient = "0x8605e554111d8ea3295e69addaf8b2abf60d68a3";
 
 const chainReadProvider = new providers.StaticJsonRpcProvider(
   readOnlyUrls[TARGET_CHAIN]
