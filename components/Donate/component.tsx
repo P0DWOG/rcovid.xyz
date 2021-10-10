@@ -39,9 +39,7 @@ export const Donate: FC = () => {
   return (
     <div className="mt-20">
       <div>
-        <p className="text-2xl font-bold text-white-900">
-          Deposit:
-        </p>
+        <p className="text-2xl font-bold text-white-900">Deposit: </p>
         <p className="text-xl text-white-700">
           Balance is {utils.formatEther(daiBalance).substr(0, 7)} DAI
         </p>
