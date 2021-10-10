@@ -41,7 +41,7 @@ export const NavBar: FC<Props> = ({ className }: Props) => {
       <div className="flex items-center">
         <Link href={router.pathname === "/about" ? "/" : "/about"}>
           <a className="text-white-900">
-            {router.pathname === "/about" ? "Main page" : "How this works?"}
+            {router.pathname === "/about" ? "Main page" : "Wtf is this?"}
           </a>
         </Link>
         <button
